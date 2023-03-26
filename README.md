@@ -7,14 +7,14 @@ The "amass-auto" script automates various functions of the popular open-source r
 
 To install amass-auto, simply clone the repository to your local machine and install the required dependencies:
 
-                  $ git clone https://github.com/muhsinbinirshad/amass-auto.git
-                  $ cd amass-auto 
+    $ git clone https://github.com/muhsinbinirshad/amass-auto.git
+    $ cd amass-auto 
 										
 ## Usage
 
 To use amass-auto, run the script and follow the on-screen prompts:
 
-                   $ python amass-auto.py
+    $ python amass-auto.py
 									 
 									 
 The script will display a menu of available Amass functions, including Enumeration, Passive DNS, Active DNS, Brute Forcing, and All of the Above. Select the function you want to run and enter the domain you want to scan, as well as a unique name for the output file. The script will then run the selected Amass function and save the output to a file with the given unique name.

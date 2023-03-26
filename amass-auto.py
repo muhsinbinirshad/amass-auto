@@ -1,6 +1,5 @@
 import os
 
-# Print menu of available Amass functions
 print("Select an Amass function to run:")
 print("1. Enumeration")
 print("2. Passive DNS")
@@ -8,14 +7,11 @@ print("3. Active DNS")
 print("4. Brute Forcing")
 print("5. All of the above")
 
-# Get user's choice of function
 choice = int(input("Enter a number: "))
 
-# Ask user to input domain and unique name for output file
 domain = input("Enter domain to scan: ")
 output_name = input("Enter a unique name for the output file: ")
 
-# Run selected Amass function and output results to file with unique name
 if choice == 1:
     print("Running Amass Enumeration...")
     os.system(f"amass enum -d {domain} -o {output_name}_enum.txt")
